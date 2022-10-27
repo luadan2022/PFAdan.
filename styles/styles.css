@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    border-bottom: 2px solid black;
+}
+
+.navbar-expand-md .navbar-collapse{
+    justify-content: center;
+}
+
+.navbar-logo{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link{
+    color: black !important;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#collapsibleNavbar .nav-link:hover{
+    background-color: #f8e88e;
+}
+
+.dropdown-menu a{
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.navbar-dark .navbar-toggler {
+    border: dashed black 2px;
+}
+
+#portada{
+    background-image: url(../img/bebe.webp);
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+}
+
+.nright{
+    height: 620px;
+    background-image: url(../img/fotografa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 45px;
+    margin: 30px;
+}
+
+.nleft{
+    height: 620px;
+}
+
+.nleft p{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #b1c9d8b0;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+} 
+
+footer i{
+    font-size: 30px;
+    letter-spacing: 18px;
+    padding-bottom: 5px;
+}
+
+footer a{
+    color: black;
+}
+
+footer a :hover{
+    color: white;
+}
+
+.carousel-inner img{
+    width: 100%;
+}
+
+.carousel-indicators li{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: white;
+}

@@ -1,0 +1,140 @@
+
+$color-celeste: #b1c9d8b0;
+$color-naranja: #f8e88e;
+$fuente-parrafo: 'Montserrat', sans-serif;
+$fuente-titulo: 'Amatic SC', cursive;
+$fuente-footer: Verdana, Geneva, Tahoma, sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border-bottom: 2px solid black;
+}
+
+.navbar-expand-md .navbar-collapse{
+    justify-content: center;
+}
+
+.navbar-logo{
+    width: 50px;
+    margin-left: 20px;
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.nav-link{
+    color: black !important;
+    font-family: $fuente-titulo;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#collapsibleNavbar .nav-link:hover{
+    background-color: $color-naranja;
+}
+
+.dropdown-menu a{
+    color: black;
+    font-family: $fuente-titulo;
+    font-size: 30px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.navbar-dark .navbar-toggler {
+    border: dashed black 2px;
+}
+
+#portada{
+    background-image: url(../img/bebe.webp);
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+}
+
+.nright{
+    height: 620px;
+    background-image: url(../img/fotografa.jpg);
+    border-radius: 70%;
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    font-family: $fuente-titulo;
+    text-align: center;
+    font-size: 45px;
+    margin: 30px;
+}
+
+.nleft{
+    height: 620px;
+    p{
+        margin-top: 30px;
+        font-family: $fuente-parrafo;
+        font-size: 16px;
+    }
+}
+
+.nleft-s{
+    height: auto;
+    p{
+        margin-top: 30px;
+        font-family: $fuente-parrafo;
+        font-size: 16px;
+    }
+}
+
+#demo{
+    float:left;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: $color-celeste;
+    border: 2px solid black;
+    font-family: $fuente-footer;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+    i{
+        font-size: 30px;
+        letter-spacing: 18px;
+        padding-bottom: 5px;
+    }
+    a{
+        color: black;
+        &:hover {
+            color: white
+        }
+    }
+} 
+
+.carousel-inner img{
+    width: 100%;
+}
+
+.carousel-indicators li{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: white;
+}
